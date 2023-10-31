@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    background: rgb(228, 228, 228);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20% 50px 20%;
+
+    /* background: #03000f; */
+    color: rgb(4, 53, 95);
+}
+
+.nav ul {
+    display: flex;
+    list-style: 0;
+}
+
+.nav li {
+    margin: 0 20px 0 0;
+}
+
+.logo {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.promo {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#03000f, #0597c7);
+    color: aliceblue;
+}
